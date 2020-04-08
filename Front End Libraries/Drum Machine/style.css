@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+body {
+  font-family: Russo One;
+}
+
+body {
+  user-select: none;
+  background-color: #ddd;
+}
+
+#root{
+    width: 40vw;
+    margin: 100px auto;
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#display{
+  background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.pad-bank{
+      display: flex;
+    width: 100%;
+  border-radius:5px;
+}
+
+.drum-pad{
+  padding: 20px 1%;
+    min-width: 9.1%;
+    text-align: center;
+}

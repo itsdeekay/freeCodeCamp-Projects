@@ -1,0 +1,35 @@
+body{
+    font-style: Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    text-align:center;
+     color:#ddd;
+  }
+  #main {
+    background-color: #444;
+    padding:25px;
+    margin:10px 5px;
+    border-radius:30px
+  }
+  
+  img{
+    max-width:100%;
+    height:auto;
+  }
+  #img-div{
+    text-align:center;
+    background-color:white;
+    color:#222;
+  }
+  #imglabel{
+    margin:10px 0px 10px 0px;
+    display:block;
+    padding-bottom:10px;
+  }
+  ul {
+      max-width: 50%;
+      margin: 0 auto 50px auto;
+      text-align: left;
+      line-height: 2;
+  }
+  a,a:visited{
+    color:#aaa;
+  }

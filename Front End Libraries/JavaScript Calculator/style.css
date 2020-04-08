@@ -1,0 +1,84 @@
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono";
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.outputScreen {
+  width: 100%;
+  background-color: #eee;
+  height: 30px;
+  vertical-align: text-bottom;
+  font-size: 25px;
+  border-radius: 0px 0px 5px 5px;
+  padding: 1px 3px 0px 3px;
+  text-align: right;
+  box-sizing: border-box;
+  font-family: digital;
+}
+
+.calculator {
+  height: 322px;
+  background: black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+}
+
+.formulaScreen {
+  min-height: 20px;
+  font-family: digital;
+  font-size: 20px;
+  color: #555;
+  background-color: #eee;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  border-radius: 5px 5px 0px 0px;
+  padding: 1px 3px;
+}
+
+.button-bank {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numbers, .operators {
+  width: 25%;
+  height: 50px;
+  border: none;
+  outline: 1px solid #666;
+}
+.numbers:hover, .operators:hover {
+  color: #ddd;
+  outline: .05em solid #ddd;
+  z-index: 3;
+  background-color: #777;
+  cursor: pointer;
+}
+
+.clearClass, .zeroClass, .equalClass {
+  width: 50%;
+  height: 50px;
+  border: none;
+  outline: 1px solid #666;
+}
+.clearClass:hover, .zeroClass:hover, .equalClass:hover {
+  color: #ddd;
+  outline: .05em solid #ddd;
+  z-index: 3;
+  background-color: #777;
+  cursor: pointer;
+}
